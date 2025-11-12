@@ -19,5 +19,12 @@ Array.prototype.myFilter = function (callbackFn, thisArg) {
 const result1 = [1, 2, 3, 4].myFilter((value) => value % 2 === 0);
 const result2 = [1, 2, 3, 4].myFilter((value) => value < 3);
 
-console.log(result1);
-console.log(result2);
+const str = 'profile.name.firstName';
+
+const jane = {
+  profile: {
+    name: {
+      firstName: "Tokhtar"
+    }
+  }
+}
