@@ -12,6 +12,7 @@ Array.prototype.myConcat = function (...items) {
     } else {
       //result.push.apply(result, val);
       //Array.prototype.push.apply(result, val);
+      //result.push(...val);
       result = [...result, ...val];
     }
   }
